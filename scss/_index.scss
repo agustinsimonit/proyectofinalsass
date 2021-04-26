@@ -1,0 +1,52 @@
+body{
+	background-color: $fondo;
+	font-family: $font;
+}
+#index{
+	display: grid;
+  	grid-template-areas: 
+  	"nav nav"
+  	"art art"
+  	"foot foot";
+}
+.navPrincipal{
+  grid-area: nav;
+}
+.artPrincipal{
+  grid-area: art;
+}
+.footerPrincipal{
+  grid-area: foot;
+}
+header{
+  	display: flex;
+  	flex-direction: column;
+  	background-image: url("../media/fondobanner1.png");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+  	margin: 0px;
+}
+article{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+	div{
+	  padding: 10px;
+	  	h2, p{
+	  		font-family: $font;
+	  	}
+	}
+	img{
+	  width: 220px;
+	  height: 220px;
+	  padding: 10px;
+	  background-repeat: no-repeat;
+	  background-position: 50%;
+	  border-radius: 50%;
+	  background-size: 100% auto;
+	}
+}
+

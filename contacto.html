@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="https://kit.fontawesome.com/753d1325e9.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="pagContacto">
+		<div class="navContacto">
+			<nav>
+			    <ul class="menu">
+			        <li><a href="index.html">Inicio</a></li>
+					<li><a href="communitymanager.html">CM</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+			    </ul>
+			</nav>
+		</div>
+		<div class="contactos1">
+			<h3>Formulario de Contacto</h3>
+				<p>Cada mensaje se lee y se responde en 48 horas hábiles, de lunes a viernes. 
+				Su mensaje es importante para nosotros, así que si cree que podríamos haber perdido su correo electrónico, no dude en enviar una nota nuevamente. Estamos aquí para cualquier duda o inquietud. 
+				Chatee con el equipo: Info@example.com</p>
+			<img width="150px" src="media/logo2.png" alt="logo2">
+		</div>
+		<div class="contactos2">
+			<form action="consultas.html" method="get">
+				<div>
+					<h2>Consultas</h2>
+				</div>
+				<div>
+					<input type="radio" id="radioPersona" name="account" checked/>
+			   		<label for="radioPersona" class="radio" chec>Persona</label>
+			   		<input type="radio" id="radioCompania" name="account" />
+			   		<label for="radioCompania" class="radio">Compania</label>
+		    	</div>
+				<input type="given-name" name="nombre" placeholder="Ingrese su Nombre" required/><br>
+				<input type="tel" name="telefono" placeholder="Ingrese su Telefono"><br>
+				<input type="email" name="email" placeholder="Ingrese su Email" required/><br>
+					<select name="estadocivil">
+						<option value="soltero">Soltero</option>
+						<option value="casado">Casado</option>
+						<option value="divorciado">Divorciado</option>
+					</select><br>
+				<textarea name="texto" placeholder="Comentarios" required/></textarea><br>
+				<label for="newsletter">¿Desea recibir Newsletter?</label>
+				<input type="checkbox" name="Newsletter" id="newsletter" checked="checked"><br>
+				<input type="submit" name="enviar" value="Enviar Formulario"><i class="far fa-paper-plane"></i>
+			</form>
+		</div>
+		<footer class="footer">
+			<div>
+				<a class="footer__red" href="https://www.facebook.com/nico.ferraretto"><i class="fab fa-facebook-square"></i></a>
+				<a class="footer__red" href="https://twitter.com/AgusSimonit"><i class="fab fa-twitter-square"></i></a>
+				<a class="footer__red" href="https://www.instagram.com/nicoferraretto/"><i class="fab fa-instagram"></i></a>
+				<a class="footer__red--diferent" href="index.html"><img width="60px" src="media/logo2.png" alt="logo2"></a>
+				<p class="footer__copyright type-bold">Queda prohibido copiar, reproducir, distribuir, publicar, transmitir, difundir, o en cualquier modo explotar cualquier parte de este servicio sin la autorización previa por escrito</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

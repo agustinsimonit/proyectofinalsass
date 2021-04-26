@@ -1,0 +1,52 @@
+#pagContacto{
+  display: grid;
+  grid-template-areas: 
+  "nav nav"
+  "cd ci"
+  "footer footer";
+}
+.navContacto{
+  grid-area: nav;
+}
+.contactos1{
+  width: 60%;
+  margin-left: 60px; 
+  grid-area: cd;
+}
+.contactos2{
+  width: 40%;
+  margin-right: 60px;
+  grid-area: ci;
+}
+.footerContactos{
+  grid-area: footer;
+}
+.contact1{
+  font-family: $font;
+}
+form{
+	text-align: center;
+  font-family: $font;
+	width: 443px; 
+ 	height: 564px; 
+  border-radius: 20px/15px; 
+  background-color: #ebebeb; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+    h2{
+      font-family: $font;
+    }
+    input[type="given-name"], input[type="tel"], input[type="email"], select, textarea, input[type="submit"]{
+      display: inline-block;
+      font-family: $font;
+      width: 200px; 
+      height: 39px; 
+      border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+      background-color: #fff; 
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      border: solid 1px #cbc9c9;
+      margin-left: -5px;
+      margin-top: 13px; 
+      padding-left: 10px;
+    }
+}

@@ -1,0 +1,39 @@
+#servicios{
+  display: grid;
+  grid-template-areas: 
+  "nav nav nav"
+  "serv serv serv"
+  "serv serv serv"
+  "serv serv serv"
+  "serv serv serv"
+  "footer footer footer";
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.nav{
+  grid-area: nav;
+}
+.serv{
+  grid-area: serv;
+}
+.footer{
+  grid-area: footer;
+}
+.tiposServicios{
+  display: flex;
+  border: 2px solid black;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  div{
+    margin-left: 5%;
+    margin-right: 5%;
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
