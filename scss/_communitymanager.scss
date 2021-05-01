@@ -1,20 +1,19 @@
-
-.fondoCm{
-  background-color: #d0dde2; 
+.bodyCm{
+  background-color: #d0dde2;
   	.tituloCm h2{
   		text-align: center;
   		font-size: 2em;
   		margin-bottom: 2em;
-	}
-	.contenedorCm{
+	  }
+	  .contenedorCm{
   		display: flex;
   		flex-direction: row;
   			.cmUp{
 				margin-top: 5rem;
-			}
-			.cmDown{
+			  }
+			  .cmDown{
   				padding-left: 2rem;
   				padding-right: 2rem;
-			}
-	}
+			  }
+	  }
 }
