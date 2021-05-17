@@ -15,8 +15,10 @@
         height: 100%;
         margin-top: 0px;
         background-color: none;
-        justify-content: center;
+        justify-content: flex-start;
           ul li{
+            background-color: black;
+            border: solid 1px white;
             list-style: none;
             width: 1em;
             font-size: 1.5em;
@@ -30,11 +32,8 @@
             overflow: visible;
             object-fit: contain;
             display: block;
-            padding-left: 0.5em;
-            padding-right: 65%; 
-            margin-bottom: 0.5em;
-            margin-top: 0.5em;
-            vertical-align: left;
+            margin-bottom: 1em;
+            margin-top: 1em;
             align-self: left;
           }
       }
@@ -55,33 +54,36 @@
     font-size: 2em;
     margin-bottom: 2em;
   }
-  .fondoCm .contenedorCm{
-    display: flex;
-    flex-direction: column;
-      .cmUp{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-          img{
-            width: 40%;
-            vertical-align: center;
-            padding-left: 25%;
-            padding-right: 25%;
-          }
-      }
-      .cmDown{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        text-align: center;
-          img{
-            width: 40%;
-            vertical-align: center;
-            padding-left: 25%;
-            padding-right: 25%;
-          }
-      }
+  .marginCm{
+    .contenedorCm{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+        .cmUp{
+          padding-left: 1rem;
+          padding-right: 1rem;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          text-align: center;
+            img{
+              width: 40%;
+              vertical-align: center;
+              padding-left: 25%;
+              padding-right: 25%;
+            }
+        }
+        .cmDown{
+          padding-left: 1rem;
+          padding-right: 1rem;
+          text-align: center;
+            img{
+              width: 40%;
+              vertical-align: center;
+              padding-left: 25%;
+              padding-right: 25%;
+            }
+        }
+    }
   }
   .bodyContacto .pagContacto{
     flex-direction: column;
@@ -273,8 +275,10 @@
         height: 100%;
         margin-top: 0px;
         background-color: none;
-        justify-content: center;
+        justify-content: flex-start;
           ul li{
+            background-color: black;
+            border: solid 1px white;
             list-style: none;
             width: 1em;
             font-size: 1.5em;
@@ -288,11 +292,8 @@
             overflow: visible;
             object-fit: contain;
             display: block;
-            padding-left: 0.5em;
-            padding-right: 65%; 
             margin-bottom: 1em;
             margin-top: 1em;
-            vertical-align: left;
             align-self: left;
           }
       }
@@ -313,33 +314,36 @@
     font-size: 2em;
     margin-bottom: 2em;
   }
-  .fondoCm .contenedorCm{
-    display: flex;
-    flex-direction: column;
-      .cmUp{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-          img{
-            width: 40%;
-            vertical-align: center;
-            padding-left: 25%;
-            padding-right: 25%;
-          }
-      }
-      .cmDown{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        text-align: center;
-          img{
-            width: 40%;
-            vertical-align: center;
-            padding-left: 25%;
-            padding-right: 25%;
-          }
-      }
+  .marginCm{
+    .contenedorCm{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+        .cmUp{
+          padding-left: 1rem;
+          padding-right: 1rem;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          text-align: center;
+            img{
+              width: 40%;
+              vertical-align: center;
+              padding-left: 25%;
+              padding-right: 25%;
+            }
+        }
+        .cmDown{
+          padding-left: 1rem;
+          padding-right: 1rem;
+          text-align: center;
+            img{
+              width: 40%;
+              vertical-align: center;
+              padding-left: 25%;
+              padding-right: 25%;
+            }
+        }
+    }
   }
   .bodyContacto .pagContacto{
     flex-direction: column;
